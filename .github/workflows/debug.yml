@@ -16,11 +16,7 @@ jobs:
     - name: CI Build
       run: chmod +x ci-build.sh && ./ci-build.sh
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: iPhone 5
         path: ./workspace/iphone5.bin
-    - uses: actions/upload-artifact@v3
-      with:
-        name: iPad2
-        path: ./workspace/ipad2.bin
