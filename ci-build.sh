@@ -11,4 +11,3 @@ git submodule init
 chmod +x ./scripts/firstrun.sh && ./scripts/firstrun.sh
 chmod +x ./scripts/build_bootshim.sh && ./scripts/build_bootshim.sh
 chmod +x ./scripts/iphone5.sh && ./scripts/iphone5.sh
-chmod +x ./scripts/ipad2.sh && ./scripts/ipad2.sh
